@@ -266,6 +266,7 @@ opacity: 0.7;
 }
 
 /* 3d button*/
+.btn-primary,
 .btn-color-0,
 .btn-color-1,
 .btn-color-2{
@@ -325,13 +326,13 @@ opacity: 0.7;
     600ms
     cubic-bezier(.3, .7, .4, 1);
 }
-
+.btn-primary:hover,
 .btn-color-0:hover,
 .btn-color-1:hover,
 .btn-color-2:hover {
   filter: brightness(110%);
 }
-
+.btn-primary:hover .front,
 .btn-color-0:hover .front,
 .btn-color-1:hover .front,
 .btn-color-2:hover .front{
@@ -341,14 +342,14 @@ opacity: 0.7;
     250ms
     cubic-bezier(.3, .7, .4, 1.5);
 }
-
+.btn-primary:active .front,
 .btn-color-0:active .front,
 .btn-color-1:active .front, 
 .btn-color-2:active .front{
   transform: translateY(-2px);
   transition: transform 34ms;
 }
-
+.btn-primary:hover .shadow,
 .btn-color-0:hover .shadow, 
 .btn-color-1:hover .shadow,
 .btn-color-2:hover .shadow{
@@ -358,14 +359,14 @@ opacity: 0.7;
     250ms
     cubic-bezier(.3, .7, .4, 1.5);
 }
-
+.btn-primary:active .shadow,
 .btn-color-0:active .shadow,
 .btn-color-1:active .shadow,
 .btn-color-2:active .shadow{
   transform: translateY(1px);
   transition: transform 34ms;
 }
-
+.btn-primary:focus:not(:focus-visible),
 .btn-color-0:focus:not(:focus-visible),
 .btn-color-1:focus:not(:focus-visible),
 .btn-color-2:focus:not(:focus-visible) {
