@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/kisspng-letter-english-alphabet-color-colorful-letters-s-5a9c4610d32b07.768455611520190992865.png">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="mediaqueries.css"/>
+  <link rel="JavaScript" href="script.js"/>
+  <title>porfolio</title>
+</head>
+<body>
+  <!--header-->
+ 
+   <nav id="desktop-nav">
+     <div class="logo">Gokulakrishnan S</div>
+     <div class="nav-menu">
+      <ul class="nav-menu-list">
+        <li class="nav-list">
+          <a href="#Home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-list">
+          <a href="#About" class="nav-link">About</a>
+        </li>
+        <li class="nav-list">
+          <a href="#Skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-list">
+          <a href="#Projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-list">
+          <a href="#Contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+     </div>
+     <div >
+      <a href="./resume/GOKULAKRISHNAN-RESUME1-WEB.pdf" class="res-btn"><button class="resume">Download CV </button></a>
+     </div>
+   </nav>
+            <!---hamber menu-->
+  <nav id="hamburger-nav">
+    <div class="logo">Gokulakrishnan S</div> 
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#About" onclick="toggleMenu()">About</a></li>
+        <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <!---Technical info-->
+  <section id="Profile">
+    <div class="section__pic-container">
+     <img src="./images/20221121124402_IMG_1790.jpg"
+     alt="Gokul profile picture"
+     class="main-pic">    
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1" >Hello! i am</p>
+        <h1 class="title">Gokulakrishnan</h1>
+        <p class="section__text__p2"> I am frontend developer and sql/plsql developer with a passion for creating visually stunning
+           and user-friendly websites.
+        </p>
+    
+      <div class="btn-container" onclick="location.href='./#Contact'">
+          <button class="btn btn-color-0">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">Hire Me</span></button>
+          <a href="./resume/GOKULAKRISHNAN-RESUME1-WEB.pdf/" target="_blank">
+          <button  class="btn btn-color-2"onclick="location.href='./resume/GOKULAKRISHNAN-RESUME1-WEB/'">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">Download CV </span>
+          </button>
+        </a>
+
+          <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+           <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">Contact Info</span>
+        </button>
+      </div>
+
+      <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+      onclick="location.href='https://www.linkedin.com/in/gokulakrishnan-s-9530311ba/'"/>
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/Gokul301/'"/>
+        <img
+        src="./assets/kisspng-computer-icons-instagram-griff-aviation-clip-art-flamingo-vector-5b2cbfb203f692.5329878815296593140162.png"
+        alt="My Instagram profile"
+        class="icon"
+        onclick="location.href='https://www.instagram.com/wanderer_sgk?igsh=MWJ3MGhtOWp4MjVkag==/'"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="About">
+      <p class="section__text__p1">Get TO Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+         <img 
+         src="./images/6094 A.jpg"
+         alt="profile picture"
+         class="about-pic"
+         />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img 
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon" 
+            />
+            <h3>Experience</h3>
+            <p>Fresher<br />Fronted Development<br />Sql/PL/SQL Developer</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png"
+            alt="Education icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Tech Bachelores Degree<br />
+              <p>in Information Technology</p>
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am gokulakrishnan from cuddalore this is my native place also .
+            my journey into the dynamic world of Information Technology (B - Tech) 
+            began at Sri Manakula Vinayagar Engineering College. I opted for IT due
+            to my passion for software and the desire to enhance my skills in the field.
+            strengths lie in fostering connections and mutual understanding with others, 
+            prioritizing time management and teamwork in my work endeavors. However, I tend 
+            to overthink tasks before execution, which I acknowledge as a weakness. Proficient
+            in HTML, CSS, JavaScript, and various advanced frameworks and libraries, I excel in 
+            implementing interactive features.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img 
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#Skills'"
+    />
+  </section>
+<section  id="Skills">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Skills</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+    <div class="details-container">
+      
+          <h2 class="experience-sub-title">Frontend</h2>
+        
+      <div class="skills-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>React</span>
+      </div>
+  </div>
+   <div class="details-container">
+          <h2 class="experience-sub-title">Backend</h2>
+  
+  <div class="skills-list">
+      <span>JAVA</span>
+   </div>
+  </div>
+  <div class="details-container">
+    
+      <h2 class="experience-sub-title">Database</h2>
+  
+  <div class="skills-list">
+      <span>Oracle SQL</span>
+      <span>PL/SQL</span>
+  </div>
+  </div>
+   </div>
+</div> 
+<img 
+src="./assets/arrow.png"
+alt="arrow icon"
+class="icon arrow"
+onclick="location.href='./#Skills1'"
+/>
+</section>  
+  <!--certidicate-->
+<section id="Skills1">
+    <h1 class="title">Certificates</h1>
+   <div class="experience-details-container">
+     <div class="about-containers">
+       <div class="details-container color-container">
+         <div class="article-container">
+           <img
+             src="./certificate/GOKULAKRISHNAN..S.pdf.png"
+             alt="Project 1"
+             class="project-img"/>
+         </div>
+         <h2 class="experience-sub-title project-title">Frontend</h2>
+         <p class="cert-text">Finished 60 days Frontend development
+          program challenge Certificate provided by NoviTech info</p>
+         </div>
+  <!--cert2-->
+   <div class="details-container color-container">
+     <div class="article-container">
+       <img
+         src="./certificate/IBM DB0101EN Certificate1 _ Cognitive Class_page-0001 (1).jpg"
+         alt="projectt"
+         class="project-img"/>
+     </div>
+     <h2 class="experience-sub-title project-title">Database</h2>
+     <p class="cert-text">Sql and relational database provided by IBM</p>
+   </div>
+   <!--cert3-->
+   <div class="details-container color-container">
+     <div class="article-container">
+       <img
+         src="./certificate/classcertofexcellencegokul.png"
+         alt="Project 1"
+         class="project-img"/>
+     </div>
+     <h2 class="experience-sub-title project-title">Database</h2>
+     <p class="cert-text">Oracle SQL provided by Oracle Dev Gym</p>
+   </div>
+   <!--cert 4-->
+   <div class="details-container color-container">
+     <div class="article-container">
+       <img
+         src="./certificate/GOKULA KRISHNANS-IoT Fundamentals-certificate.pdf .png"
+         alt="Project 1"
+         class="project-img"/>
+     </div>
+     <h2 class="experience-sub-title project-title">Iot</h2>
+     <p class="cert-text">Iot Fundamentals connecting things.Provided by CISCO Networking Academy</p>
+   </div>
+  </div>
+  <img 
+  src="./assets/arrow.png"
+  alt="arrow icon"
+  class="icon arrow"
+  onclick="location.href='./#Projects'"/>
+  </div>
+</section>
+<!--projects-->
+<section id="Projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./images/pexels-photo-5077064.webp"
+            alt="Project 1"
+            class="project-img1"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Wiki Wizard</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2"
+            class="btn btn-color-2"
+            onclick="location.href='https://github.com/Gokul301/'"
+          >
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">Github</span>
+          </button>
+          <button class="btn btn-color-2"
+          class="btn btn-color-2"
+          onclick="location.href='https://github.com/Gokul301/'"
+        >
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front">View</span>
+        </button>
+        </div>
+        <p class="cert-text" style="margin-top: 10px;"> Search (with autocomplete) every wikipedia article or read a random entry
+          </p>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./images/Default_youtube_interface_design_animated_image_for_project_1.jpg"
+            alt="Project 1"
+            class="project-img1"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Youtube Project</h2>
+        <div class="btn-container">
+          <button class="btn btn-color-2"
+            class="btn btn-color-2"
+            onclick="location.href='https://github.com/Gokul301/Youtube-prototype-design-Project.git'"
+          >
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">Github</span>
+          </button>
+
+          <button class="btn btn-color-2"
+          class="btn btn-color-2"
+          onclick="location.href='https://gokul301.github.io/Youtube-prototype-design-Project/'"
+        >
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front">View</span>
+        </button>
+        </div>
+        <p  class="cert-text" style="margin-top: 10px;"> Designed and implemented a prototype YouTube interface
+          using HTML and CSS, showcasing my ability to create visually
+          appealing and responsive web layouts while honing my skills
+          in front-end development.</p>
+      </div>
+      </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#Contact'"
+  />
+</section>
+<section id="Contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      
+        <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+        onclick="location.href='https://mailto:gokulakrishnan612@gmail.com/'"/>
+      <p><a href="mailto:gokulakrishnan612@gmail.com">gokulakrishnan612@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+        <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+        onclick="location.href='https://www.linkedin.com/in/gokulakrishnan-s-9530311ba/'"/>
+        
+      <p><a href="https://www.linkedin.com/in/gokulakrishnan-s-9530311ba/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-menu-list">
+        <li class="nav-list"><a href="#Profile" class="nav-link">Home</a></li>
+        <li class="nav-list"><a href="#About" class="nav-link">About</a></li>
+        <li class="nav-list"><a href="#Skills" class="nav-link">Skills</a></li>
+        <li class="nav-list"><a href="#Projects" class="nav-link">Projects</a></li>
+        <li class="nav-list"><a href="#Contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p class="cert-text">Copyright &#169; 2024 Gokulakrishnan. All Rights Reserved.</p>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+</body>
+</html>
