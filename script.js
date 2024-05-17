@@ -82,3 +82,142 @@ if($target.length){
     scrollTop: $target.offset().top - navOffset
   }, 600);
 };
+
+
+/*cert-view*/
+function showImage() {
+  var imageContainer =
+      document.createElement("div");
+  imageContainer.className =
+      "image-container";
+
+  var image =
+      document.createElement("img");
+  image.src =
+"certificate/GOKULAKRISHNAN..S.pdf.png";
+  var closeButton =
+      document.createElement(
+          "button"
+      );
+  closeButton.textContent = "Close";
+  closeButton.className =
+      "close-btn";
+  closeButton.onclick =
+      function () {
+          document.body.removeChild(
+              imageContainer
+          );
+      };
+
+  imageContainer.appendChild(
+      closeButton
+  );
+  imageContainer.appendChild(image);
+
+  document.body.appendChild(
+      imageContainer
+  );
+}
+
+function showImage2() {
+  var imageContainer =
+      document.createElement("div");
+  imageContainer.className =
+      "image-container";
+
+  var image =
+      document.createElement("img");
+  image.src =
+"certificate/IBM DB0101EN Certificate1 _ Cognitive Class_page-0001 (1).jpg";
+  var closeButton =
+      document.createElement(
+          "button"
+      );
+  closeButton.textContent = "Close";
+  closeButton.className =
+      "close-btn";
+  closeButton.onclick =
+      function () {
+          document.body.removeChild(
+              imageContainer
+          );
+      };
+
+  imageContainer.appendChild(
+      closeButton
+  );
+  imageContainer.appendChild(image);
+
+  document.body.appendChild(
+      imageContainer
+  );
+}
+
+
+function showImage3() {
+  var imageContainer =
+      document.createElement("div");
+  imageContainer.className =
+      "image-container";
+
+  var image =
+      document.createElement("img");
+  image.src =
+"certificate/classcertofexcellencegokul.png";
+  var closeButton =
+      document.createElement(
+          "button"
+      );
+  closeButton.textContent = "Close";
+  closeButton.className =
+      "close-btn";
+  closeButton.onclick =
+      function () {
+          document.body.removeChild(
+              imageContainer
+          );
+      };
+
+  imageContainer.appendChild(
+      closeButton
+  );
+  imageContainer.appendChild(image);
+
+  document.body.appendChild(
+      imageContainer
+  );
+}
+
+function showImage4() {
+  var imageContainer =
+      document.createElement("div");
+  imageContainer.className =
+      "image-container";
+
+  var image =
+      document.createElement("img");
+  image.src =
+"certificate/GOKULA KRISHNANS-IoT Fundamentals-certificate.pdf .png";
+  var closeButton =
+      document.createElement(
+          "button"
+      );
+  closeButton.textContent = "Close";
+  closeButton.className =
+      "close-btn";
+  closeButton.onclick =
+      function () {
+          document.body.removeChild(
+              imageContainer
+          );
+      };
+
+  imageContainer.appendChild(
+      closeButton
+  );
+  imageContainer.appendChild(image);
+
+  document.body.appendChild(
+      imageContainer
+  );
+}
